@@ -67,6 +67,7 @@ var vm_init=function(){
 			else if(window.location.toString().indexOf('database=woolcock')!=-1){
 				$vm.server          ='production';
 				$VmAPI.api_base     =config.api_path_woolcock;
+			}
 			else{
 				$vm.server          ='development';
 				$VmAPI.api_base     =config.api_path_development;
